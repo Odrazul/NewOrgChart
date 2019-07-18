@@ -36,6 +36,8 @@ public partial class OrgChartDatabaseEntities : DbContext
 
     public virtual DbSet<OrgchartUser> OrgchartUsers { get; set; }
 
+    public virtual DbSet<Usuario> Usuarios { get; set; }
+
 }
 
 }

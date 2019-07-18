@@ -15,7 +15,7 @@ namespace OrgChartWebApp.Controllers
         {
             Boolean userExists = false;
             SearchResultCollection sResults = null;
-            string path = "LDAP://Falabella.com2";
+            string path = "LDAP://Falabella.com";
             string criterios = "(&(objectClass=user)(samAccountName=" + user + "))";
             try
             {
